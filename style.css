@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --blue: #b9e2ff;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background: url("images/bg.jpg"), #10141D;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#title {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#description {
+    font-size: 1.2em;
+    font-weight: 300;
+    color: var(--blue);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#survey-form {
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 3em 2em;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+}
+
+fieldset {
+    border: 0;
+    border-bottom: 3px solid rgba(20, 32, 55, 0.5);
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+fieldset:nth-child(3) {
+    border-bottom: 0;
+    margin-bottom: 0px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0;
+}
+
+label {
+    color: var(--blue);
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea, #dropdown {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 0;
+    border-radius: 0.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+option {
+    color: rgb(55, 56, 58);
+}
+
+#submit {
+    background-color: rgb(63, 167, 246);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+#submit:hover{
+    background-color: rgb(54, 145, 214);
+}
+
+footer {
+    background-color: rgb(20, 38, 59);
+    color: #5d6e8f;
+    padding: 10px 2rem;
+    text-align: right;
+}
+footer span{
+    font-weight: bolder;
+}
+footer a{
+    color: rgb(24, 81, 194);
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(24, 81, 194);
+    text-decoration: underline;
+}
